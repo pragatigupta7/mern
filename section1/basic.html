@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background-image: url(https://tse3.mm.bing.net/th/id/OIP.LxWpF69cCEYYGgOF3ofBbQHaEK?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+           
+        }
+        .mycard{
+            width: 15%;
+            height: 50%;
+            background: linear-gradient(45deg,white,blue);
+            padding: 20px;
+            
+        }
+        .mycard img{
+            height: 100px;
+            width: 150px;
+            margin: 10px;
+            margin-left: 15%;
+        }
+        .inp{
+            border: none;
+            border-bottom: 1.5px solid black;
+            border-right: 1.5px solid black;
+            border-radius: 5px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.5) rgba(255,255,255,0.5));
+        }
+        .btn{
+            background-color: skyblue;
+            width: 80px;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+            font-size: 20px;
+        }
+        .btn:hover {
+            background-color: white;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="mycard">
+        <h2 style="text-align: center;">Member Login</h2>
+        <img src="login.png" alt="loginimg">
+        <form action="">
+            <label for="email">Email</label>
+            <input class=inp type="email" style="margin: 5px;padding: 5px;width: 90%;">
+
+            <label for="password">Password</label>
+            <input type="password"style="margin: 5px;padding:5px;width: 90%;">
+
+            <button class="btn" style="margin: 10px;padding: 5px;">Login</button>
+        </form>
+    </div>
+</body>
+</html>

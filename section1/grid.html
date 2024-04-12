@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .grid_items{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            background-color: #0084ff;
+        }
+        .grid_container{
+            display: grid;
+            /* grid-template-rows: 2fr 1fr 1fr 4fr; */
+            grid-template-columns: 2fr 1fr 1fr 4fr;
+            grid-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid_container">
+        <div class="grid_items">Item 1</div>
+        <div class="grid_items">Item 2</div>
+        <div class="grid_items">Item 3</div>
+        <div class="grid_items">Item 4</div>
+    </div>
+</body>
+</html>
